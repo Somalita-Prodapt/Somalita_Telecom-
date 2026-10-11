@@ -1,0 +1,47 @@
+# Virtual Environments
+.venv/
+venv/
+env/
+ENV/
+
+# Byte-compiled / optimized / cache files
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.deepeval/
+
+# Environment Variables & Secrets (CRITICAL)
+.env
+.env.*
+.env.local
+!.env.example
+
+# Large ML Weights & Model Artifacts
+models/*.joblib
+models/*.pkl
+models/*.pt
+models/*.bin
+!models/.gitkeep
+
+# Local Storage, Databases & Logs
+storage/*
+!storage/.gitkeep
+*.log
+*.sqlite
+*.sqlite3
+
+# Large Raw Datasets (Use download script instead)
+data/raw/*.csv
+data/raw/*.xz
+data/raw/*.zip
+
+# IDE & OS Metadata
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+~$*
+*.tmp

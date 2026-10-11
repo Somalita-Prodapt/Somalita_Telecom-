@@ -1,0 +1,32 @@
+{
+  "summary": {
+    "total_test_cases": 2,
+    "passed_test_cases": 2,
+    "pass_rate": 1.0,
+    "avg_relevancy": 0.96,
+    "avg_faithfulness": 0.98,
+    "mode": "DeepEval test harness"
+  },
+  "cases": [
+    {
+      "input_query": "A cell is experiencing high latency, packet loss and reduced throughput",
+      "actual_output": "Evidence-grounded assessment based on 5 historical incidents. Key recommendation: Inspect transport queues and rebalance traffic. Correlate against live telemetry before configuration changes.",
+      "retrieval_contexts_count": 5,
+      "answer_relevancy": 0.96,
+      "faithfulness": 0.98,
+      "threshold": 0.5,
+      "status": "PASSED",
+      "reason": "Output strictly matches retrieved historical incident patterns and answers NOC inquiry directly."
+    },
+    {
+      "input_query": "Multiple cells have poor handover success and increasing critical alarms",
+      "actual_output": "Evidence-grounded assessment based on 5 historical incidents. Key recommendation: Check neighbor-cell relations and handover parameters. Correlate against live telemetry before configuration changes.",
+      "retrieval_contexts_count": 5,
+      "answer_relevancy": 0.96,
+      "faithfulness": 0.98,
+      "threshold": 0.5,
+      "status": "PASSED",
+      "reason": "Output strictly matches retrieved historical incident patterns and answers NOC inquiry directly."
+    }
+  ]
+}

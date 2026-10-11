@@ -1,0 +1,5 @@
+Official dataset: 5G Network Operations (NetOps) Dataset
+Primary source: https://huggingface.co/datasets/fenar/5g_netops
+File: 5G_netops_data_100K.csv.xz
+License shown by the source: Apache-2.0
+The source page reports 100,000 train rows and a 6.57 MB compressed file.

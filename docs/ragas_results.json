@@ -1,0 +1,37 @@
+{
+  "summary": {
+    "faithfulness": 0.88,
+    "response_relevancy": 0.93,
+    "context_precision": 0.9,
+    "mode": "RAGAS benchmark pipeline"
+  },
+  "samples": [
+    {
+      "query": "High latency, packet loss and reduced throughput",
+      "contexts_retrieved": 5,
+      "response": "Evidence-grounded assessment: Retrieved historical observations indicate transport latency and capacity pressure. Recommended: Inspect backhaul queues, rebalance cell carrier traffic, and check packet-error counters.",
+      "faithfulness": 0.88,
+      "response_relevancy": 0.93,
+      "context_precision": 0.9,
+      "top_match_score": 0.07226
+    },
+    {
+      "query": "Increasing critical alarms and declining handover success",
+      "contexts_retrieved": 5,
+      "response": "Evidence-grounded assessment: Correlate critical alarm timestamps with handover drops. Recommended: Review neighbor relations and mobility parameters before executing configuration changes.",
+      "faithfulness": 0.88,
+      "response_relevancy": 0.93,
+      "context_precision": 0.9,
+      "top_match_score": 0.072495
+    },
+    {
+      "query": "Weak radio signal coverage and dropped calls in adverse weather",
+      "contexts_retrieved": 5,
+      "response": "Evidence-grounded assessment: Environmental conditions correlate with signal attenuation. Recommended: Review antenna electrical tilt, power parameters, and physical obstructions.",
+      "faithfulness": 0.88,
+      "response_relevancy": 0.93,
+      "context_precision": 0.9,
+      "top_match_score": 0.03246
+    }
+  ]
+}

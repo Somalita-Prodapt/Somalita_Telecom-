@@ -1,0 +1,22 @@
+[
+  {
+    "query": "high latency packet loss reduced throughput",
+    "expected_term": "latency",
+    "top_k": 5
+  },
+  {
+    "query": "poor signal and dropped calls",
+    "expected_term": "signal",
+    "top_k": 5
+  },
+  {
+    "query": "handover failures and fault occurrence",
+    "expected_term": "handover",
+    "top_k": 5
+  },
+  {
+    "query": "increasing critical alarms",
+    "expected_term": "alarm",
+    "top_k": 5
+  }
+]
